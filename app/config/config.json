@@ -1,0 +1,20 @@
+{
+    "debug": true,
+    "server": {
+      "address": ":8080"
+    },
+    "context":{
+      "timeout":2
+    },
+    "database": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "user": "root",
+        "pass": "qwerty123",
+        "name": "db_cleanarch_alta"
+    },
+    "jwt" : {
+      "secret" : "supersecret12345!@#$%",
+      "expired" : 1
+    }
+  }
